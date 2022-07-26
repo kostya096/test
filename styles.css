@@ -1,0 +1,70 @@
+body {
+    /*background-color: rgba(179, 201, 210, 0.44);*/
+    background-image: url("space_fon4.jpg");
+    font-family: 'Segoe UI', Tahoma, Geneva, serif ;
+}
+
+.container {
+    max-width: 700px;
+    margin: auto;
+    margin-top: 30px;
+    /*background-color: #94d22e;*/
+    background: rgb(255, 255, 255, 40%);
+    padding: 10px;
+    height: 500px;
+    border-radius: 5px;
+}
+
+header {
+    border-radius: 5px;
+    background: rgb(255, 255, 255, 40%);
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.table {
+    margin: auto;
+    width: 200px;
+    height: 200px;
+}
+
+.table_score {
+    margin: auto;
+    margin-bottom: 5px;
+    border: 2px solid white;
+    min-width: 28%;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+}
+
+.table > tbody > tr > td {
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+@media (max-width: 1000px) {
+    .table {
+        width: 400px;
+        height: 400px;
+
+    }
+    .table > tbody > tr > td {
+        border: 3px solid white;
+        margin: 50px;
+    }
+    .table_score {
+        border: 3px solid white;
+        font-size: 30px;
+        min-width: 396px;
+        min-height: 40px;
+    }
+    header {
+        height: 100px;
+        font-size: 50px;
+    }
+}
+
